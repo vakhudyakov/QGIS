@@ -41,7 +41,7 @@ QgsConfigCache::QgsConfigCache()
 
 const QgsProject *QgsConfigCache::project( const QString &path, const QgsServerSettings *settings )
 {
-  if ( ! mProjectCache[ path ] )
+  if ( 1 )
   {
 
     std::unique_ptr<QgsProject> prj( new QgsProject() );
